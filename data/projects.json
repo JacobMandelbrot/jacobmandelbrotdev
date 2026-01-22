@@ -1,0 +1,68 @@
+{
+  "projects": [
+    {
+      "id": "game1",
+      "title": "Spectrum",
+      "category": "game",
+      "thumbnail": "assets/gifs/SpectrumDemo.gif",
+      "shortDescription": "Action roguelike with deep customization and elemental combos being developed at a small indie studio at Harvard.",
+      "detailPage": "projects/game1.html"
+    },
+    {
+      "id": "game2",
+      "title": "Sink or Swim",
+      "category": "game",
+      "thumbnail": "assets/gifs/SinkOrSwim.gif",
+      "shortDescription": ".io-like game where you and a friend control a pirate ship and fight other online players on a massive ocean map.",
+      "detailPage": "projects/game2.html"
+    },
+    {
+      "id": "game3",
+      "title": "Fractal Factory",
+      "category": "game",
+      "thumbnail": "assets/gifs/Fractal_Factory_Video_GIF.gif",
+      "shortDescription": "Puzzle game where you use a visual scripting language to recreate fractals with the goal of helping students visually understand recursion.",
+      "detailPage": "projects/game3.html"
+    },
+    {
+      "id": "game4",
+      "title": "Shield Buster",
+      "category": "game",
+      "thumbnail": "assets/gifs/FinalShowoff2.gif",
+      "shortDescription": "Created a game and a game controller with detachable magnetic components. In the game, you fight a boss and survive by using the detachable components, which are shields that each have different abilities.",
+      "detailPage": "projects/game4.html"
+    },
+    {
+      "id": "game5",
+      "title": "Harshian Swamp",
+      "category": "game",
+      "thumbnail": "assets/gifs/HarshianSwamp_GIF.gif",
+      "shortDescription": "2D rhythm platformer inspired by Pac-Man that placed in the top ten in high school FBLA national competition.",
+      "detailPage": "projects/game5.html"
+    },
+    {
+      "id": "vr1",
+      "title": "Skybreaker",
+      "category": "vr",
+      "thumbnail": "assets/gifs/MRThesisPlaythrough.gif",
+      "shortDescription": "Mixed reality sword fighting game being developed alongside my thesis which is studying what makes virtual things feel like they belong in the real world (Both things still in development).",
+      "detailPage": "projects/vr1.html"
+    },
+    {
+      "id": "vr2",
+      "title": "Sound Factory",
+      "category": "vr",
+      "thumbnail": "assets/gifs/SoundFactoryDemo2.gif",
+      "shortDescription": "Virtual reality sound and music creation sandbox that goes along with a haptic glove we created.",
+      "detailPage": "projects/vr2.html"
+    },
+    {
+      "id": "vr3",
+      "title": "ARtMuse",
+      "category": "vr",
+      "thumbnail": "assets/gifs/HarvardART.gif",
+      "shortDescription": "An interactive WebGL learning experience at the Harvard Art Museums.",
+      "detailPage": "projects/vr3.html"
+    }
+  ]
+}

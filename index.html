@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio showcasing game programming and virtual reality development projects">
+    <meta name="keywords" content="game development, VR development, Unity, C#, virtual reality, portfolio">
+    <meta name="author" content="Your Name">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Game & VR Developer Portfolio">
+    <meta property="og:description" content="Portfolio showcasing game programming and virtual reality development projects">
+    <meta property="og:type" content="website">
+
+    <title>Game & VR Developer Portfolio</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-tabs">
+                <button class="nav-tab active" data-tab="about">About Me</button>
+                <button class="nav-tab" data-tab="resume">Resume</button>
+                <button class="nav-tab" data-tab="projects">Projects</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- About Me Section -->
+        <section id="about" class="content-section active">
+            <h1 class="section-title">About Me</h1>
+
+            <div class="about-container">
+                <!-- Profile Photo -->
+                <img src="assets/images/MyPictureCostaRica.jpeg" alt="Profile Photo" class="profile-photo">
+
+                <div class="about-text">
+                    <h2>Game & VR Developer</h2>
+                    <p>
+                        Passionate game programmer and virtual reality developer with experience 
+                        making games and immersive experiences. Skilled in Unity, Unreal Engine, 
+                        C++, C#, and modern VR platforms. I love turning abstract ideas into experiences
+                        you can play and pushing the boundaries of modern technologies.
+
+                    </p>
+                    <p>
+                        Outside of development, one cool thing I do is kendo, a sword 
+                        fighting martial art. Here’s a clip of me (person on the right) landing a hit on
+                        my opponent's forearm in a tournament.
+                    </p>
+                </div>
+
+                <!-- Showcase Video -->
+                <div class="about-gif-container">
+                    <video class="about-gif" autoplay loop muted playsinline>
+                        <source src="assets/videos/KendoVid.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <!-- Contact Links -->
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/jacob-mandelbrot-93161024b/" class="contact-link" target="_blank" rel="noopener">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+
+                    <a href="mailto:jmandelbrot@college.harvard.edu" class="contact-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/>
+                        </svg>
+                        Email
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="content-section">
+            <h1 class="section-title">Resume</h1>
+
+            <div class="resume-container">
+                <iframe src="assets/resume/JacobMandelbrotResume20251.pdf" class="resume-embed"></iframe>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="content-section">
+
+            <!-- Game Projects -->
+            <div class="projects-category">
+                <h2 class="category-title">Game Projects</h2>
+                <div id="game-projects-grid" class="projects-grid">
+                    <!-- Game project cards will be dynamically inserted here by JavaScript -->
+                </div>
+            </div>
+
+            <!-- VR Projects -->
+            <div class="projects-category">
+                <h2 class="category-title">VR Projects</h2>
+                <div id="vr-projects-grid" class="projects-grid">
+                    <!-- VR project cards will be dynamically inserted here by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>

@@ -42,27 +42,35 @@
     },
     {
       "id": "vr1",
-      "title": "Skybreaker",
+      "title": "Battlefish",
       "category": "vr",
-      "thumbnail": "assets/gifs/MRThesisPlaythrough.gif",
-      "shortDescription": "Mixed reality sword fighting game being developed alongside my thesis which is studying what makes virtual things feel like they belong in the real world (Both things still in development).",
+      "thumbnail": "assets/gifs/BattleFish.gif",
+      "shortDescription": "Co-located mixed reality game where players compete to catch fish using spears, nets, and cannons. Won the Game Prototyping track at MIT Reality Hack.",
       "detailPage": "projects/vr1.html"
     },
     {
       "id": "vr2",
-      "title": "Sound Factory",
+      "title": "Lightweaver",
       "category": "vr",
-      "thumbnail": "assets/gifs/SoundFactoryDemo2.gif",
-      "shortDescription": "Virtual reality sound and music creation sandbox that goes along with a haptic glove we created.",
+      "thumbnail": "assets/gifs/MRThesisPlaythrough.gif",
+      "shortDescription": "Mixed reality sword fighting game using Meta's XR toolkit and with my own 3D models and AI video motion-captured animations",
       "detailPage": "projects/vr2.html"
     },
     {
       "id": "vr3",
+      "title": "Sound Factory",
+      "category": "vr",
+      "thumbnail": "assets/gifs/SoundFactoryDemo2.gif",
+      "shortDescription": "Virtual reality sound and music creation sandbox that goes along with a haptic glove we created.",
+      "detailPage": "projects/vr3.html"
+    },
+    {
+      "id": "vr4",
       "title": "ARtMuse",
       "category": "vr",
       "thumbnail": "assets/gifs/HarvardART.gif",
       "shortDescription": "An interactive WebGL learning experience at the Harvard Art Museums.",
-      "detailPage": "projects/vr3.html"
+      "detailPage": "projects/vr4.html"
     }
   ]
 }
